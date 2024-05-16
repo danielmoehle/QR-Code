@@ -1,0 +1,47 @@
+body {
+background-color: lightblue;
+}
+
+.small-box {
+    background-color: white;
+    top: 50%;
+    left: 0;
+    right: 0;
+    position:absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0;
+    height: 30vw;
+    width: 20vw;
+    max-width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+    border-radius: 6%;
+}
+
+.top, .bot {
+max-width: fit-content;
+max-height: fit-content;
+
+}
+
+.bot {
+    font-size: 1vw; 
+    max-width: 80%; 
+    margin-inline: auto; 
+    color: gray; 
+}
+
+.top {
+    font-size: 1.3vw;
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+
+.picture {
+    max-width: 85%;
+    border-radius: 6%;
+    margin-top: 7%;
+    margin-bottom: 1vw;
+}
